@@ -10,7 +10,7 @@ import UIKit
 
 class DataSource: NSObject {
     
-    //sandbox 路徑
+    //sandbox 路徑 如果沒有則建立檔案
     let documentsFilePath = "\(NSHomeDirectory())/Documents/Data.plist";
     
     
